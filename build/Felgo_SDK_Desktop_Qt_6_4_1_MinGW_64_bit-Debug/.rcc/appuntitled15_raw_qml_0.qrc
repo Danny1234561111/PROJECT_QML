@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="/untitled15/">
+    <file alias="Main.qml">C:/Users/user/Documents/untitled15/Main.qml</file>
+    <file alias="HomePage.qml">C:/Users/user/Documents/untitled15/HomePage.qml</file>
+    <file alias="CatalogPage.qml">C:/Users/user/Documents/untitled15/CatalogPage.qml</file>
+    <file alias="AboutPage.qml">C:/Users/user/Documents/untitled15/AboutPage.qml</file>
+    <file alias="ContactPage.qml">C:/Users/user/Documents/untitled15/ContactPage.qml</file>
+    <file alias="ProfilePage.qml">C:/Users/user/Documents/untitled15/ProfilePage.qml</file>
+    <file alias="FavoritesPage.qml">C:/Users/user/Documents/untitled15/FavoritesPage.qml</file>
+    <file alias="CartPage.qml">C:/Users/user/Documents/untitled15/CartPage.qml</file>
+    <file alias="MenuKek.qml">C:/Users/user/Documents/untitled15/MenuKek.qml</file>
+    <file alias="Buy.qml">C:/Users/user/Documents/untitled15/Buy.qml</file>
+  </qresource>
+</RCC>
+

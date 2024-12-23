@@ -1,0 +1,14 @@
+module untitled15
+typeinfo appuntitled15.qmltypes
+prefer :/untitled15/
+Main 1.0 Main.qml
+HomePage 1.0 HomePage.qml
+CatalogPage 1.0 CatalogPage.qml
+AboutPage 1.0 AboutPage.qml
+ContactPage 1.0 ContactPage.qml
+ProfilePage 1.0 ProfilePage.qml
+FavoritesPage 1.0 FavoritesPage.qml
+CartPage 1.0 CartPage.qml
+MenuKek 1.0 MenuKek.qml
+Buy 1.0 Buy.qml
+
