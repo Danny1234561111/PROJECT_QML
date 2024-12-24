@@ -7,13 +7,15 @@ ApplicationWindow {
     width: 480
     height: 720
     visible: true
-
+    color:"#fff0da"
     // Переменная для отслеживания состояния меню
     property bool menuVisible: false
     property string currentPage: "HomePage.qml"
     property string response: ""// Переменная для отслеживания текущей страницы
     property var inCourzin: ["Элемент 1", "Элемент 2", "Элемент 3"]
     property var inFavorite: ["Элемент 1", "Элемент 2", "Элемент 3"]// Переменная для отслеживания текущей страницы
+    property var inPrices1: ["100", "200", "300"]
+    property var inPrices2: ["100", "200", "300"]
     // Таймер для задержки
     Timer {
         id: closeTimer
@@ -125,10 +127,6 @@ ApplicationWindow {
         MenuKek{
             itemText: "Каталог"
             pageSource: "CatalogPage.qml"
-            onClicked: { // Добавил обработку клика
-               if (pageSource !== "")
-                   menuItemClicked("CatalogPage.qml");
-               }
         }
         MenuKek{
             itemText: "О нас"

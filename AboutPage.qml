@@ -9,8 +9,8 @@ Page {
     title: "Компания ДемиДаниил"
 
     Rectangle {
+        color:"#fcfcee"
         anchors.fill: parent
-        color: "#F9F9F9"  // Фоновый цвет
 
         Column {
             anchors.fill: parent
@@ -18,15 +18,15 @@ Page {
             anchors.margins: 20
 
             Text {
-                text: "О компании ДемИданиил"
+                text: "О компании ДемиДаниил"
                 font.pixelSize: 24
                 font.bold: true
                 anchors.horizontalCenter: parent.horizontalCenter
             }
 
             Image {
-                source: "resources/3.png"  // Путь к логотипу компании
-                width: 200
+                fillMode: Image.PreserveAspectFit
+                source: "resources/4.jpg"  // Путь к логотипу компании
                 height: 200
                 anchors.horizontalCenter: parent.horizontalCenter
                 smooth: true
@@ -46,6 +46,8 @@ Page {
                 onClicked: {
                     // Действие по нажатию кнопки (например, переход на страницу с ассортиментом)
                     console.log("Переход к ассортименту мебели")
+                    currentPage = "CatalogPage.qml";
+                    loadPage();
                 }
             }
 
@@ -55,6 +57,8 @@ Page {
                 onClicked: {
                     // Действие по нажатию кнопки (например, открытие формы обратной связи)
                     console.log("Открыть форму контактов")
+                    currentPage = "ContactPage.qml";
+                    loadPage();
                 }
             }
         }

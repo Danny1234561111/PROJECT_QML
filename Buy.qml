@@ -1,5 +1,5 @@
-import QtQuick 2.12
-import Felgo 3.0
+import QtQuick 2.15
+import Felgo
 
 Rectangle {
     property string name: ""
@@ -32,19 +32,11 @@ Rectangle {
             }
             Rectangle {
                 anchors.right: parent.right
-                anchors.rightMargin: 2
-                radius: 20
-
-                // Вложенный Rectangle для границы
-                Rectangle {
-                    anchors.fill: parent
-                    color: "black"  // Прозрачный фон
-                    border.width: 1
-                    border.color:"#CD853F"
-                    radius: 20
-                    // Для того чтобы граница была на самом верхнем уровне
-                    z: -1  // Помещает границу под основным заполнением
-                }
+                anchors.rightMargin: -10
+                anchors.top: parent.top
+                width:40
+                height:40
+                color:"#FFAADD"
 
                 Text {
                     anchors.centerIn: parent

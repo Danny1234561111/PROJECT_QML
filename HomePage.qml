@@ -5,7 +5,7 @@ import QtQuick.Controls 2.15
 Rectangle {
     width: 480
     height: 720
-    color: "white"
+    color:"#fcfcee"
 
     Column {
         anchors.fill: parent  // ScrollView заполняет родительский Rectangle

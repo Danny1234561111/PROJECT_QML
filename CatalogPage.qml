@@ -1,19 +1,27 @@
 import Felgo
 import QtQuick 2.15
 import QtQuick.Controls 2.15
+import QtQuick.Layouts 2.15
+// Rectangle{
+//      width: 480
+//      height: 720
+//      color: "white"
+//     Text{
+//         text:"hello"
+//     }
+// }
 
 Rectangle {
     width: 480
     height: 720
-    color: "white"
-
+        color:"#fcfcee"
     Column {
         anchors.fill: parent
         spacing: 20  // Задаем отступы между элементами
         anchors.topMargin: 20  // Отступ сверху для всей колонки
 
         Text {
-            text: response ? "Поиск по Запросу - " + response : "Каталог"
+            text: response ? "Поиск по Запросу - " + response :"Каталог"
             anchors.horizontalCenter: parent.horizontalCenter
             font.pixelSize: 24
         }
